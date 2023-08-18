@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+
+    <title></title>
+
+    <link rel="stylesheet" type="text/css" href="IdCard.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <video autoplay loop muted plays-inline class="background-clip">
+      <source src="videos/mercury_planet.mp4" type="video/mp4">
+    </video>
+    
+    <h1>Let's Create an ID card!</h1>
+  
+    <div>
+      <label for= "firstName" >First Name:</label><br>
+      <input type="text" id="userFirstName" name="firstName" placeholder="First Name"/>
+    </div>
+  
+    <br>
+  
+    <div>
+      <label for= "lastName" >Last Name:</label><br>
+      <input type="text" id="userLastName" name="lastName" placeholder="Last Name"/>
+    </div>
+  
+    <br>
+  
+     <div>
+      <label for= "address" >Address:</label><br>
+      <input type="text" id="userAddress" name="address" placeholder="Address"/>
+    </div>
+  
+    <br>
+  
+     <div>
+      <label for= "phoneNum" >Phone Number:</label><br>
+      <input type="tel" id="userPhoneNum" name="phoneNum" placeholder="Phone Number"/>
+    </div>
+  
+    <br>
+  
+     <div>
+      <label for= "age" >Age:</label><br>
+      <input type="text" id="userAge" name="age" placeholder="Age"/>
+    </div>
+  
+    <br>
+  
+      <div>
+          <button type="submit" onClick="idCard()">Get ID card!</button>
+      </div>
+  
+  
+  <div id="idCard">
+  
+      <img src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg">
+      
+      <p id="postFullName"></p>
+      
+      <p id="postAge"></p>
+      
+      <p id="postPhoneNumber"></p>
+      
+      <p id="postAddress"></p>
+      
+      </div>
+      
+      
+      <script src="IdCard.js"></script>
+      
+      </body>
+      
+      <footer>Made by A.Chambers, Nov 30, 2022</footer>
+      
+      </html>
+  </div>
+  
