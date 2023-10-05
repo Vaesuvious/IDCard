@@ -1,2 +1,0 @@
-# IDCard
-IDCard Project
