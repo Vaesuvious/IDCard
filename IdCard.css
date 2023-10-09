@@ -1,60 +1,56 @@
-.container{
+.container {
   width: 100%;
   height: 100%;
 }
 
-.background-clip{
+.background-clip {
   position: absolute;
   right: 0;
   bottom: 0;
   z-index: -1;
- }
+}
 
 img {
+  width: 90px;
 
-    width: 90px;
-    
-    height: 90px;
-    
-    float: left;
-    }
-    
-    #idCard {
-    
-    border: 5px solid black;
-    
-    border-radius: 33px;
-    
-    height: 14em;
-    
-    width: 25em;
-    
-    margin: 80px auto 20px;
-    
-    background-color: maroon;
-    }
-    
-   
-    
-    body{
-      color: whitesmoke; 
-      text-align: center;
-    }
-    
-    input:hover{ 
-      background-color: #ffffe0;
-    }
-    
-    label {
-      font-weight: bold;
-    }
-    
-    #postFullName{
-      font-size: 30px;
-      text-align: center;
-    }
-    
-    p{
-      font-size: 20px;
-      text-align: left;
-    }
+  height: 90px;
+
+  float: left;
+}
+
+#idCard {
+  border: 5px solid black;
+
+  border-radius: 33px;
+
+  height: 14em;
+
+  width: 25em;
+
+  margin: 80px auto 20px;
+
+  background-color: maroon;
+}
+
+body {
+  color: whitesmoke;
+  text-align: center;
+}
+
+input:hover {
+  background-color: #ffffe0;
+}
+
+label {
+  font-weight: bold;
+}
+
+#postFullName {
+  font-size: 30px;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  text-align: left;
+}
