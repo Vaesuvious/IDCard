@@ -50,10 +50,18 @@ p {
   text-align: left;
 }
 
-@media screen 
-and (orientation: portrait) 
-and (min-width: 600px) 
-and (max-width: 1920px){ 
+@media(max-width: 1900px){ 
+
+  .background-clip {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+}
+
+@media(orientation: portrait){ 
 
   .background-clip {
     position: absolute;
