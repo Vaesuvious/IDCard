@@ -68,18 +68,10 @@ p {
   }
 
   .container h1{
-    text-align: right;
+    text-align: center;
   }
 
-  .container 
-  #userFirstName
-  #userLastName
-  #userAddress
-  #userAge
-  #userPhoneNum{
-    display: flex;
-    justify-content: right;
-  }
+ 
   
   .background-clip {
     position: absolute;
