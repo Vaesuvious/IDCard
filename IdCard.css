@@ -60,24 +60,68 @@ p {
   text-align: left;
 }
 
-@media (max-width: 1000px) {
+/* min-width = where you're starting from (starting-point).
+max-width = where it ends or up to (end-point).*/
+@media only screen and (min-width: 360px) {
 
-  .container {
-    width: 100%;
-    height: 100%;
+  #idCard {
+    height: 12em;
+    width: 20em;
+    margin: 40px auto 20px;
   }
 
-  .container h1{
+  img {
+    width: 72px;
+    height: 72px;
+  }
+
+  p {
+    font-size: 16px;
+    padding-left: 5px;
+  }
+
+  p,
+  #fullName {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+ 
+  #idCard {
+    border: 5px solid black;
+
+    border-radius: 33px;
+
+    height: 16em;
+
+    width: 26em;
+
+    margin: 80px auto 20px;
+
+    background-color: maroon;
+  }
+
+  img {
+    width: 90px;
+
+    height: 90px;
+
+    float: left;
+  }
+
+  #postFullName {
+    font-size: 40px;
     text-align: center;
   }
 
- 
-  
-  .background-clip {
-    position: absolute;
-    right: -50px;
-    bottom: -160px;
-    z-index: -1;
+  p {
+    font-size: 25px;
+    text-align: left;
+    padding-left: 5px;
   }
 
+  #postAge{
+    padding-top: 50px;
+  }
 }

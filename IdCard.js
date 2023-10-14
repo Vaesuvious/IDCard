@@ -17,7 +17,7 @@ function idCard(){
         document.getElementById("postAge").innerHTML = "Age: " + age;
       }
       else if(numberArray[i] > 100){
-        document.getElementById("postPhoneNumber").innerHTML = "Phone: " + phoneNumber;
+        document.getElementById("postPhoneNum").innerHTML = "Phone: " + phoneNumber;
       }
       else{
         alert("Invalid age or phone number!");
