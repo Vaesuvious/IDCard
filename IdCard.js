@@ -23,6 +23,5 @@ function idCard(){
         alert("Invalid age or phone number!");
       }
       
-      
     }
   }
