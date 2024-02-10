@@ -94,12 +94,16 @@ max-width = where it ends or up to (end-point).*/
   }
 }
 
-@media screen and (min-height: 736px){
+@media screen and (min-height: 700px){
   .background-clip {
-    top: -338px;
+    top:0px;
   }
 }
 @media screen and (min-width: 768px) {
+  .background-clip{
+    top:0px;
+  }
+  
   #idCard {
     border: 5px solid black;
 
