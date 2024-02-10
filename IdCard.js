@@ -6,7 +6,7 @@ function idCard(){
     var phoneNumber = parseInt(document.getElementById('userPhoneNum').value);
     
     document.getElementById("postFullName").innerHTML = firstName + " " + lastName;
-    document.getElementById("postAddress").innerHTML = "Addres: " + address;
+    document.getElementById("postAddress").innerHTML = "Address: " + address;
     
     var numberArray = [];
     numberArray.push(age);
